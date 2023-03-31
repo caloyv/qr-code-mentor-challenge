@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: rgba(213,225,239,255);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 475px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.qr-container{
+    margin: 20px;
+
+}
+
+.qr-container img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.text-container{
+    text-align: center;
+    margin: 20px;
+    line-height: 22px;
+}
+
+h2{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 0.95rem;
+    color: hsl(220, 15%, 55%);
+}
